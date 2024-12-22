@@ -1,16 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   get_next_line.c                                    :+:      :+:    :+:   */
+/*   get_next_line_bonus.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mchaibi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/12/22 21:49:55 by mchaibi           #+#    #+#             */
-/*   Updated: 2024/12/22 21:49:57 by mchaibi          ###   ########.fr       */
+/*   Created: 2024/12/22 21:53:43 by mchaibi           #+#    #+#             */
+/*   Updated: 2024/12/22 21:55:47 by mchaibi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "get_next_line_bonus.h"
 
 static char	*ft_read(int fd, char *str, char *str_global)
 {
